@@ -70,7 +70,7 @@ pipeline {
         }
       }
     }
-    //CommentLine
+    /*
     stage('DT Deploy Event') {
       when {
           expression {
@@ -90,7 +90,7 @@ pipeline {
           }
         }
       }
-    }
+    }*/
     stage('Run health check in dev') {
       when {
         expression {
